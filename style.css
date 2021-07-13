@@ -1,0 +1,20 @@
+body{
+    background-size: cover;
+}
+
+.image{
+    width:500px;
+    border:10px solid purple;
+}
+
+.btn-default{
+    font-family: cursive;
+}
+
+.left{
+    float: left;
+    
+}
+.right{
+    float: right;
+}

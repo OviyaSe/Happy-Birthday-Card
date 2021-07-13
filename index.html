@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Happy Birthday</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="fabric.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body background="balloon.gif">
+    <center>
+        <br>
+        <br>
+    <img class="image" src="Birthday.jpg">
+    <img class="left" src="Confetti Explosion.gif">
+    <img class="right" src="Confetti Explosion.gif">
+    <br><br>
+    <button onclick="playSound();" class="btn btn-default">Dear Sutharsika</button>
+    <audio id="my_audio" src="Birthday.mp3"></audio>
+    </center>
+</body>
+
+<script>
+    var x= document.getElementById("my_audio");
+    function playSound(){
+        x.play();
+    }
+</script>
